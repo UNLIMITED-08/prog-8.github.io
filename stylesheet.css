@@ -1,0 +1,33 @@
+body{
+    font-family: "serif";
+}
+
+
+header{
+    background-color:lightsteelblue;
+    height: 50px;
+    width: 100%;
+}
+.header-left{
+    color:red;
+    float: left;
+    margin-top: 12px;
+    margin-left: 48%;
+}
+.logo{
+    background-color: forestgreen;
+    width: 150px;
+}
+.header-right{
+    float: right;
+    margin-top: 12px;
+    margin-right: 5px;
+    transition:all 0.5s;
+}
+.header-right a{
+    color: white;
+    display:block;
+}
+.header-right:hover {
+    background-color:turquoise;
+  }
